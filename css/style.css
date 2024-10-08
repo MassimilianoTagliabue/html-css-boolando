@@ -39,4 +39,31 @@ img{
 
 /* main */
 
+.discount-price{
+    color: red;
+}
+.original-price{
+    text-decoration:line-through;
+}
+
+.bg-red{
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+}
+.sustain{
+    background-color: green;
+    color: white;
+    padding: 3px 8px; 
+    
+}
+
+.card{
+    position: relative;
+}
+
+.position{
+    position: absolute;
+    
+}
 /* footer */
