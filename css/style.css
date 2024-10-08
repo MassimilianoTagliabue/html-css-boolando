@@ -19,7 +19,6 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
 
     /* debug */
     border: 2px solid black;
@@ -29,6 +28,7 @@ img{
 
 .col{
     width: calc(95% / 3);
+    margin-bottom: 20px;
 
     /* debug */
     min-height: 300px;
@@ -39,9 +39,10 @@ img{
 
 /* main */
 
-.discount-price{
+.discount-price {
     color: red;
 }
+
 .original-price{
     text-decoration:line-through;
 }
@@ -62,8 +63,17 @@ img{
     position: relative;
 }
 
-.position{
+ .position{
     position: absolute;
-    
+    bottom: 100px;
+}
+
+.heart{
+    position: absolute;
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 6px 13px;
+    top: 10px;
+    right: 0;
 }
 /* footer */
